@@ -17,6 +17,13 @@ bevy_input_actionmap = { git = "https://github.com/lightsoutgames/bevy_input_act
 
 [dev-dependencies]
 bevy = { version = "0.5", default-features = false, features = ["bevy_wgpu", "x11", "dynamic"] }
+native-dialog = "0.5.5"
+derive_more = "0.99.13"
+ron = "0.6.2"
 
 # [patch."https://github.com/bevyengine/bevy/"]
 # bevy = { path = "/home/jakob/dev/rust/contrib/bevy/bevy" }
+
+# [patch.crates-io]
+# bevy = { path = '../bevy' }
+# bevy-inspector-egui = { git = "https://github.com/jakobhellermann/bevy-inspector-egui", branch = "bevy-main" }
